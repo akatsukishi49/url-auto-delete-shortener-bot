@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '12278231'))
 API_HASH = environ.get('API_HASH', 'b00b2fde44e9f6ef49af43391d5454fd')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5948430797:AAHUyfBuCsWUPvOL_Vg_ZDQBG4OXNO5VrRQ")
+BOT_TOKEN = environ.get('BOT_TOKEN', "5948430797:AAEtR6RZYF2R0AmSAt8OekwWk2p9aN7mgTI")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -32,8 +32,8 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tkmovieshd:tkmovieshd@cluster1.p2ehl.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tkmovieshd:0C4Sr0mRE2OhiO0l@cluster1.p2ehl.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster1")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
